@@ -23,8 +23,8 @@ const main = async function () {
     // Docs: https://docs.story.foundation/docs/ipa-metadata-standard
     const ipMetadata: IpMetadata = client.ipAsset.generateIpMetadata({
         title: 'My IP Asset',
-        description: 'Test IP asset by ZunXBT',
-        watermarkImg: 'https://picsum.photos/200',
+        description: 'Test IP asset by Mahcubyan',
+        watermarkImg: 'https://beige-swift-tick-668.mypinata.cloud/files/bafkreiabtiwkvubhnbu6xscwzkyxepll6kb5de5wy7xpk22fictcux53xi?X-Algorithm=PINATA1&X-Date=1730309765&X-Expires=30&X-Method=GET&X-Signature=66e92fdc21554de520bc2c8bdfee772304fb85d43130ca3c928a88b9dc209750',
         attributes: [
             {
                 key: 'Rarity',
@@ -37,9 +37,9 @@ const main = async function () {
     //
     // Docs: https://eips.ethereum.org/EIPS/eip-721
     const nftMetadata = {
-        name: 'ZunXBT',
+        name: 'Mahcubyan',
         description: 'This is a test NFT on Iliad',
-        image: 'https://picsum.photos/200',
+        image: 'https://beige-swift-tick-668.mypinata.cloud/files/bafkreiabtiwkvubhnbu6xscwzkyxepll6kb5de5wy7xpk22fictcux53xi?X-Algorithm=PINATA1&X-Date=1730309765&X-Expires=30&X-Method=GET&X-Signature=66e92fdc21554de520bc2c8bdfee772304fb85d43130ca3c928a88b9dc209750',
     }
 
     // 4. Upload your IP and NFT Metadata to IPFS
