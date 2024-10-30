@@ -24,7 +24,7 @@ const main = async function () {
     const ipMetadata: IpMetadata = client.ipAsset.generateIpMetadata({
         title: 'My IP Asset',
         description: 'Test IP asset by Mahcubyan',
-        watermarkImg: 'https://beige-swift-tick-668.mypinata.cloud/files/bafkreiabtiwkvubhnbu6xscwzkyxepll6kb5de5wy7xpk22fictcux53xi?X-Algorithm=PINATA1&X-Date=1730309765&X-Expires=30&X-Method=GET&X-Signature=66e92fdc21554de520bc2c8bdfee772304fb85d43130ca3c928a88b9dc209750',
+        watermarkImg: 'https://picsum.photos/200',
         attributes: [
             {
                 key: 'Rarity',
@@ -39,7 +39,7 @@ const main = async function () {
     const nftMetadata = {
         name: 'Mahcubyan',
         description: 'This is a test NFT on Iliad',
-        image: 'https://beige-swift-tick-668.mypinata.cloud/files/bafkreiabtiwkvubhnbu6xscwzkyxepll6kb5de5wy7xpk22fictcux53xi?X-Algorithm=PINATA1&X-Date=1730309765&X-Expires=30&X-Method=GET&X-Signature=66e92fdc21554de520bc2c8bdfee772304fb85d43130ca3c928a88b9dc209750',
+        image: 'https://picsum.photos/200',
     }
 
     // 4. Upload your IP and NFT Metadata to IPFS
